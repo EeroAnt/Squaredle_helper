@@ -1,0 +1,1 @@
+# Squaredle_helper

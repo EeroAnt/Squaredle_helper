@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<form>
+<table>
+	{% for i in size %}
+	<tr>
+		{% for j in size %}
+		<td><input type="text" name="grid[{{i}}][{{j}}]"></td>
+		{% endfor %}
+	{% endfor %}
+</table>
+<input type="submit" value="Submit">
+</form>
